@@ -1,0 +1,21 @@
+Aqui explico como ejecutaria las instrucciones de cada slides
+
+1. Para entrar en el directorio thecmdchallenge/ procedo con cd ./thecmdchallenge (puedo usar la tecla tab para autocompletar)
+2. Con pwd puedo saber la ruta de mi directorio actual.
+3. Con ls -a puedo listar todos los archivos, incluidos los ocultos del directorio actual
+4. Con "find ../" puedo buscar y listar todos los archivos y directorios partiendo del directorio actual. si quiero que me liste solo los archivos puedo agregar "-type f"
+5. Con clear limpio la consola
+6. Encontrandome en el directorio boringfolder, con "Cat ./small-name/ (seguidamente de 4 veces la tecla tab) llego al archivo trophy.txt y lo puedo mostrar en la consola.  
+7. Estando en funcode con find ./ -name "*.js" puedo listar todos los archivos con la extension .js
+8. Estando en funcode con  mkdir ./the-most-funny/not-that-funny puedeo agregar dentro de the-most-funny otro directorio
+llamado not-that-funny
+9. Con  find ./ -name "*.txt" obtengo la ruta del archivo the-mostboring-text.txt. Seguidamente con cp ./even-more-boring/i-cant-believe-
+how-boring/the-ultimate-boring-inception/myfirstcopy.txt ./even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception/lol.txt puedo crear el nuevo archivo lol.txt
+10. Estando en boringfolder con mv ../funcode/kids.jpg ../funcode/ima
+ges/hello/ muevo el archivo kids.jpg al directorio images/hello
+11. Estando en boringfolder con  rm -r ../small-name borro el directorio small-name y su contenido
+12. Estando en thecmdchallenge con cat ./funcode/the-most-funny/lol/the-ultimate-joke.txt puedo imprimir
+en la linea de comando el contenido del archivo.
+13. Estando en thecmdchallenge con  rm -r ./boringfolder/* borro todo el contenido dentro de boringfolder
+14. Estando en thecmdchallenge con nano ./kamehameha/dragon-ball-jokes.md abro el archivo para editar
+15. Abierto el archivo en el paso anterior, borro la primera linea y con control + X salgo y confirmo guardar los cambios.
